@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python 3.6 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-26 18:54+0800\n"
-"PO-Revision-Date: 2018-07-17 09:28+0800\n"
+"PO-Revision-Date: 2018-07-17 13:29+0800\n"
 "Last-Translator: Adrian Liaw <adrianliaw2000@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/"
 "python-36-tw/language/zh-Hant/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../library/asyncio.rst:2
 msgid ":mod:`asyncio` --- Asynchronous I/O, event loop, coroutines and tasks"
-msgstr ":mod:`asyncio` — 非同步 I/O，事件迴圈，協同程序與任務"
+msgstr ":mod:`asyncio` — 非同步 I/O、事件迴圈、協同程序與任務"
 
 #: ../../library/asyncio.rst:9
 msgid "**Source code:** :source:`Lib/asyncio/`"
@@ -34,10 +34,10 @@ msgid ""
 "resources, running network clients and servers, and other related "
 "primitives. Here is a more detailed list of the package contents:"
 msgstr ""
-"Asyncio 模組提供一個在單一線程（single-threaded）使用協同程序（coroutines）撰"
-"寫並發（concurrent）程式碼，並使用多路復用 I/O（multiplexing I/O）方式來連接 "
-"sockets 與其他的資源，運作在網路客戶端與伺服器端以及其他相關的原始基礎架構。"
-"以下列表包含著更多的套件的內容："
+"Asyncio 模組提供一個在單一線程（single-threaded）內使用協同程序（coroutines）"
+"撰寫並發（concurrent）的程式碼，並使用多路復用 I/O（multiplexing I/O）方式來"
+"連接 sockets 與其他的資源，運作在網路客戶端與伺服器端以及其他相關的原始基礎架"
+"構。以下列表包含著更多的套件的內容："
 
 #: ../../library/asyncio.rst:18
 msgid ""
@@ -88,7 +88,7 @@ msgid ""
 ":ref:`synchronization primitives <asyncio-sync>` for use between coroutines "
 "in a single thread, mimicking those in the :mod:`threading` module;"
 msgstr ""
-":ref:`同步處理原始物件 <asyncio-sync>`用於單一線程的協同程序，類似於\\  :mod:"
+":ref:`同步處理原始物件 <asyncio-sync>`用於單一線程的協同程序，類似\\  :mod:"
 "`threading`\\ 模組;"
 
 #: ../../library/asyncio.rst:38
@@ -96,7 +96,7 @@ msgid ""
 "an interface for passing work off to a threadpool, for times when you "
 "absolutely, positively have to use a library that makes blocking I/O calls."
 msgstr ""
-"一個介面用來將工作傳遞給線程池，當某些時候你必須得去呼叫與使用會造成阻塞 I/"
+"一個介面用來將工作傳遞到線程池，當某些時候你必須得去呼叫與使用會造成阻塞 I/"
 "O（blocking I/O）的一個函式庫時。"
 
 #: ../../library/asyncio.rst:42
